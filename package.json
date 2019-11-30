@@ -1,0 +1,18 @@
+{
+  "name": "excel-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "execute": "node ./dist/index.js",
+    "start": "tsc -w & nodemon ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^3.4.0",
+    "nodemon": "^2.0.1",
+    "typescript": "^3.7.2"
+  }
+}
